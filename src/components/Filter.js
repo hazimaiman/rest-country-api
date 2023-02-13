@@ -2,8 +2,11 @@ import React from 'react'
 
 const Filter = () => {
 
-    const search = document.getElementById('search')
 
+    window.addEventListener("DOMContentLoaded", () => {
+        const search = document.getElementById('search')
+
+    
     search.addEventListener("input", (e) => {
         const {value} = e.target
 
@@ -15,6 +18,9 @@ const Filter = () => {
             } else {
                 name.parentElement.parentElement.style.display ="none"
             }
+
+    })
+    
         })
     })
   return (
