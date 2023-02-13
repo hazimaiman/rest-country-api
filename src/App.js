@@ -14,18 +14,11 @@ function App() {
     <Header />
     <Filter />
     <Countries />
-    
-    
-    
 
-    
     </>
 
 
   )
-
-    
-
   
 }
 
