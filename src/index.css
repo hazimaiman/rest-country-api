@@ -17,19 +17,19 @@ body {
 
 .grid {
   display:grid;
-  grid-template-columns:  lfr;
+  grid-template-columns: 1fr;
   gap: 40px;
 }
 
 @media (min-width: 640px) {
 
   .grid {
-    grid-template-columns: repeat(2, lfr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 768px) {
 
   .grid {
-    grid-template-columns: repeat(3, lfr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
